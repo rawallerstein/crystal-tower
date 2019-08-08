@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/crystal-tower/precache-manifest.f043e4c43c53979f6e558eb099c4b9f4.js"
+  "/crystal-tower/precache-manifest.eee8d6ea134ac684568a49bb01eb82b4.js"
 );
 
 self.addEventListener('message', (event) => {
