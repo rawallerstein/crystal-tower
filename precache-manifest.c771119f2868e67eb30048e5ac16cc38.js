@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f56fb3c3066b1c32f3ea29423856e3f0",
+    "revision": "7d5d0f7bf69464f25f6316ed12296559",
     "url": "/crystal-tower/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/crystal-tower/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "7808e24a5a907e5f6e84",
+    "revision": "e061ae9cdfca8f815b67",
     "url": "/crystal-tower/static/css/main.1d5d2b2e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/crystal-tower/static/js/2.c0b7c8db.chunk.js"
   },
   {
-    "revision": "7808e24a5a907e5f6e84",
-    "url": "/crystal-tower/static/js/main.58207b62.chunk.js"
+    "revision": "e061ae9cdfca8f815b67",
+    "url": "/crystal-tower/static/js/main.cb522201.chunk.js"
   },
   {
     "revision": "977464da554a825eb868",
