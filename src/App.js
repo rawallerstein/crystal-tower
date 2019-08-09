@@ -16,7 +16,7 @@ class App extends React.Component {
     if (!localStorage.getItem('characterId')) {
       localStorage.setItem('characterId', null)
     }
-    if (this.state.characterId !== this.state.results.Character.ID) {
+    if (this.state.results === null || this.state.results.Error === true ||this.state.characterId !== this.state.results.Character.ID) {
     fetch(`https://xivapi.com/character/${localStorage.getItem('characterId')}?data=AC,FR,FC,FCM,PVP`)
     .then(res => res.json())
     .then(
@@ -36,7 +36,9 @@ class App extends React.Component {
           error
         });
       }
-    )}
+    )} else if (this.state.characterID !== this.state.results.Character.ID){
+
+    }
 
   }
 
